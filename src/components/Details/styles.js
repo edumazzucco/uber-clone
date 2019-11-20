@@ -17,21 +17,31 @@ export const Container = styled.View`
 `;
 
 export const TypeTitle = styled.Text`
-  
+  font-size: 20px;
+  color: #222;
 `;
 
 export const TypeDescription = styled.Text`
-  
+  font-size: 14px;
+  color: #667;
 `;
 
 export const TypeImage = styled.View`
-  
+  height: 80px;
+  margin: 10px 0;
 `;
 
 export const RequestButton = styled.TouchableOpacity`
-  
+  background: #222;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  align-self: stretch;
+  margin-top: 10px;
 `;
 
 export const RequestButtonText = styled.Text`
-  
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
 `;

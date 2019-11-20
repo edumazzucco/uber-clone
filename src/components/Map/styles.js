@@ -44,3 +44,10 @@ export const LocationTimeTextSmall = styled.Text`
     font-size: 10px;
     text-align: center;
 `;
+
+// Remember to add the workaround to autosize the iOS statusbar
+export const Back = styled.TouchableOpacity`
+    position: absolute;
+    top: ${Platform.select({ ios: 60, android: 40 })};
+    left: 20px;
+`;
